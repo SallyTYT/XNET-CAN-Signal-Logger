@@ -120,6 +120,48 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="XNET CAN Signal Logger" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{B69A442E-3E3E-42B6-ACD7-419475E21D73}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{36CFD9F7-EC46-4088-8DF1-761336A7EA4B}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{BE501324-B301-459F-849A-CB08CED656E5}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">XNET CAN Signal Logger</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/XNET CAN Signal Logger</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{3342CDB7-1D39-4A92-AB17-BAF0B39BB376}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">XNET CAN Signal Logger.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/XNET CAN Signal Logger/XNET CAN Signal Logger.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/XNET CAN Signal Logger/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3A15E6AA-3419-483D-9A4F-1815EC87DDC0}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/XNET CAN Signal Logger.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">NI</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">XNET CAN Signal Logger</Property>
+				<Property Name="TgtF_internalName" Type="Str">XNET CAN Signal Logger</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 NI</Property>
+				<Property Name="TgtF_productName" Type="Str">XNET CAN Signal Logger</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{EA849170-CDC3-4FFF-B6A2-B36870FC4DC7}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">XNET CAN Signal Logger.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
