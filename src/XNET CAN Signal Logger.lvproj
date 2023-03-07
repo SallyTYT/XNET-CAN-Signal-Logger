@@ -19,7 +19,7 @@
 			<Item Name="ReadManyChannels.vi" Type="VI" URL="../Utilities/ReadManyChannels.vi"/>
 			<Item Name="WriteManyChannels.vi" Type="VI" URL="../Utilities/WriteManyChannels.vi"/>
 		</Item>
-		<Item Name="LogManyChannels.vi" Type="VI" URL="../LogManyChannels.vi"/>
+		<Item Name="XNET CAN Signal Logger.vi" Type="VI" URL="../XNET CAN Signal Logger.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Convert List From Array To Comma.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert List From Array To Comma.vi"/>
