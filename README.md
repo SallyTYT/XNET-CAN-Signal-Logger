@@ -2,7 +2,7 @@
 
 Logging over 1000 channels * 1000 Hz CAN data to TDMS files.
 
-Developed with LabVIEW 2021
+Developed with LabVIEW 2021 (32bit)
 
 ## Use the Logger
 
