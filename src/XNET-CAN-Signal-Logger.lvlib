@@ -11,24 +11,33 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Archived" Type="Folder">
+		<Item Name="XNET CAN Signal Logger.vi" Type="VI" URL="../Archived/XNET CAN Signal Logger.vi"/>
+	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Action - DAQ AI Reader.vi" Type="VI" URL="../SubVIs/Action - DAQ AI Reader.vi"/>
 		<Item Name="Action - TDMS Writer.vi" Type="VI" URL="../SubVIs/Action - TDMS Writer.vi"/>
 		<Item Name="Action - XNET CAN Reader.vi" Type="VI" URL="../SubVIs/Action - XNET CAN Reader.vi"/>
-		<Item Name="Create TDMS Channels.vi" Type="VI" URL="../SubVIs/Create TDMS Channels.vi"/>
+		<Item Name="Configure DAQ AI.vi" Type="VI" URL="../SubVIs/Configure DAQ AI.vi"/>
+		<Item Name="Create TDMS Channels - DAQ AI.vi" Type="VI" URL="../SubVIs/Create TDMS Channels - DAQ AI.vi"/>
+		<Item Name="Create TDMS Channels - XNET CAN.vi" Type="VI" URL="../SubVIs/Create TDMS Channels - XNET CAN.vi"/>
 		<Item Name="Get Signal Data All.vi" Type="VI" URL="../SubVIs/Get Signal Data All.vi"/>
 		<Item Name="Get Signal Names All.vi" Type="VI" URL="../SubVIs/Get Signal Names All.vi"/>
 		<Item Name="Get Signal Names by ID.vi" Type="VI" URL="../SubVIs/Get Signal Names by ID.vi"/>
 		<Item Name="Get Signal Units All.vi" Type="VI" URL="../SubVIs/Get Signal Units All.vi"/>
 		<Item Name="Get Signal Units by ID.vi" Type="VI" URL="../SubVIs/Get Signal Units by ID.vi"/>
 		<Item Name="Global Variables.vi" Type="VI" URL="../SubVIs/Global Variables.vi"/>
+		<Item Name="Launch Action - DAQ AI Readers.vi" Type="VI" URL="../SubVIs/Launch Action - DAQ AI Readers.vi"/>
 		<Item Name="Launch Action - TDMS Writer.vi" Type="VI" URL="../SubVIs/Launch Action - TDMS Writer.vi"/>
 		<Item Name="Launch Action - XNET CAN Readers.vi" Type="VI" URL="../SubVIs/Launch Action - XNET CAN Readers.vi"/>
 		<Item Name="Parse Log File Name.vi" Type="VI" URL="../SubVIs/Parse Log File Name.vi"/>
+		<Item Name="Query Ring String from Value.vi" Type="VI" URL="../SubVIs/Query Ring String from Value.vi"/>
 		<Item Name="Report Error.vi" Type="VI" URL="../SubVIs/Report Error.vi"/>
 		<Item Name="Update Signal Data.vi" Type="VI" URL="../SubVIs/Update Signal Data.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="Def-CAN Port Configuration.ctl" Type="VI" URL="../Typedef/Def-CAN Port Configuration.ctl"/>
+		<Item Name="Def-DAQ AI Configuration.ctl" Type="VI" URL="../Typedef/Def-DAQ AI Configuration.ctl"/>
 		<Item Name="Def-Data Queue Ref.ctl" Type="VI" URL="../Typedef/Def-Data Queue Ref.ctl"/>
 		<Item Name="Def-Data Queue Type.ctl" Type="VI" URL="../Typedef/Def-Data Queue Type.ctl"/>
 	</Item>
@@ -37,6 +46,5 @@
 		<Item Name="ReadManyChannels.vi" Type="VI" URL="../Utilities/ReadManyChannels.vi"/>
 		<Item Name="WriteManyChannels.vi" Type="VI" URL="../Utilities/WriteManyChannels.vi"/>
 	</Item>
-	<Item Name="XNET CAN Signal Logger - MultiPorts.vi" Type="VI" URL="../XNET CAN Signal Logger - MultiPorts.vi"/>
-	<Item Name="XNET CAN Signal Logger.vi" Type="VI" URL="../XNET CAN Signal Logger.vi"/>
+	<Item Name="NI XNET CAN Signal and DAQ Logger.vi" Type="VI" URL="../NI XNET CAN Signal and DAQ Logger.vi"/>
 </Library>
