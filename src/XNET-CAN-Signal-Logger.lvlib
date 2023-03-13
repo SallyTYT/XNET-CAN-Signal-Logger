@@ -16,31 +16,38 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Action - DAQ AI Reader.vi" Type="VI" URL="../SubVIs/Action - DAQ AI Reader.vi"/>
+		<Item Name="Action - TDMS Defragment.vi" Type="VI" URL="../SubVIs/Action - TDMS Defragment.vi"/>
 		<Item Name="Action - TDMS Writer.vi" Type="VI" URL="../SubVIs/Action - TDMS Writer.vi"/>
 		<Item Name="Action - XNET CAN Reader.vi" Type="VI" URL="../SubVIs/Action - XNET CAN Reader.vi"/>
 		<Item Name="Configure DAQ AI.vi" Type="VI" URL="../SubVIs/Configure DAQ AI.vi"/>
 		<Item Name="Create TDMS Channels - DAQ AI.vi" Type="VI" URL="../SubVIs/Create TDMS Channels - DAQ AI.vi"/>
 		<Item Name="Create TDMS Channels - XNET CAN.vi" Type="VI" URL="../SubVIs/Create TDMS Channels - XNET CAN.vi"/>
-		<Item Name="Get Signal Data All.vi" Type="VI" URL="../SubVIs/Get Signal Data All.vi"/>
-		<Item Name="Get Signal Names All.vi" Type="VI" URL="../SubVIs/Get Signal Names All.vi"/>
-		<Item Name="Get Signal Names by ID.vi" Type="VI" URL="../SubVIs/Get Signal Names by ID.vi"/>
-		<Item Name="Get Signal Units All.vi" Type="VI" URL="../SubVIs/Get Signal Units All.vi"/>
-		<Item Name="Get Signal Units by ID.vi" Type="VI" URL="../SubVIs/Get Signal Units by ID.vi"/>
+		<Item Name="Get Monitor.Names All.vi" Type="VI" URL="../SubVIs/Get Monitor.Names All.vi"/>
+		<Item Name="Get Monitor.Names by ID.vi" Type="VI" URL="../SubVIs/Get Monitor.Names by ID.vi"/>
+		<Item Name="Get Monitor.Units All.vi" Type="VI" URL="../SubVIs/Get Monitor.Units All.vi"/>
+		<Item Name="Get Monitor.Units by ID.vi" Type="VI" URL="../SubVIs/Get Monitor.Units by ID.vi"/>
+		<Item Name="Get Monitor.Values All.vi" Type="VI" URL="../SubVIs/Get Monitor.Values All.vi"/>
 		<Item Name="Global Variables.vi" Type="VI" URL="../SubVIs/Global Variables.vi"/>
 		<Item Name="Launch Action - DAQ AI Readers.vi" Type="VI" URL="../SubVIs/Launch Action - DAQ AI Readers.vi"/>
+		<Item Name="Launch Action - TDMS Defragment.vi" Type="VI" URL="../SubVIs/Launch Action - TDMS Defragment.vi"/>
 		<Item Name="Launch Action - TDMS Writer.vi" Type="VI" URL="../SubVIs/Launch Action - TDMS Writer.vi"/>
 		<Item Name="Launch Action - XNET CAN Readers.vi" Type="VI" URL="../SubVIs/Launch Action - XNET CAN Readers.vi"/>
+		<Item Name="Log GlobalStop.WriterState.vi" Type="VI" URL="../SubVIs/Log GlobalStop.WriterState.vi"/>
 		<Item Name="Parse Log File Name.vi" Type="VI" URL="../SubVIs/Parse Log File Name.vi"/>
 		<Item Name="Query Ring String from Value.vi" Type="VI" URL="../SubVIs/Query Ring String from Value.vi"/>
 		<Item Name="Report Error.vi" Type="VI" URL="../SubVIs/Report Error.vi"/>
-		<Item Name="Update Queue Size by ID.vi" Type="VI" URL="../SubVIs/Update Queue Size by ID.vi"/>
-		<Item Name="Update Signal Data.vi" Type="VI" URL="../SubVIs/Update Signal Data.vi"/>
+		<Item Name="Update GlobalStop.ReaderState by ID.vi" Type="VI" URL="../SubVIs/Update GlobalStop.ReaderState by ID.vi"/>
+		<Item Name="Update GlobalStop.WriterState.vi" Type="VI" URL="../SubVIs/Update GlobalStop.WriterState.vi"/>
+		<Item Name="Update Monitor.QueueSize by ID.vi" Type="VI" URL="../SubVIs/Update Monitor.QueueSize by ID.vi"/>
+		<Item Name="Update Monitor.Values by ID.vi" Type="VI" URL="../SubVIs/Update Monitor.Values by ID.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="Def-CAN Port Configuration.ctl" Type="VI" URL="../Typedef/Def-CAN Port Configuration.ctl"/>
 		<Item Name="Def-DAQ AI Configuration.ctl" Type="VI" URL="../Typedef/Def-DAQ AI Configuration.ctl"/>
 		<Item Name="Def-Data Queue Ref.ctl" Type="VI" URL="../Typedef/Def-Data Queue Ref.ctl"/>
 		<Item Name="Def-Data Queue Type.ctl" Type="VI" URL="../Typedef/Def-Data Queue Type.ctl"/>
+		<Item Name="Def-GSTOP.ctl" Type="VI" URL="../Typedef/Def-GSTOP.ctl"/>
+		<Item Name="Def-Logging State.ctl" Type="VI" URL="../Typedef/Def-Logging State.ctl"/>
 		<Item Name="Def-Signal to Monitor.ctl" Type="VI" URL="../Typedef/Def-Signal to Monitor.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">

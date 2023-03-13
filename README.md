@@ -14,5 +14,8 @@ Developed with LabVIEW 2021 SP1 (32bit)
 
 1. LabVIEW 2021 SP1
 2. NI-XNET Driver
-3. VIPM Dependencies
+3. Dependencies
     * JKI State Machine
+    * OpenG Array Libraray
+    * [LabVIEW-GlobalStop-Library](https://github.com/NEVSTOP-LAB/LabVIEW-GlobalStop-Library),  v2022.12.12 or newer version
+    * [LabVIEW-TimerEngine](https://github.com/NEVSTOP-LAB/LabVIEW-TimerEngine), v0.1.1.3 or newer version
