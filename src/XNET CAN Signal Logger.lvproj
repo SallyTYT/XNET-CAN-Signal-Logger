@@ -324,7 +324,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{25914E2F-77CD-40F1-A51D-99D3BE988CB8}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">NI XNET CAN Signal and DAQ Logger.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI XNET CAN Signal and DAQ Logger.exe</Property>
@@ -333,7 +333,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{351971B4-FC35-4397-BA9A-269DDEB86718}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5B33AC86-B04F-4207-B4CF-FA7D60DFEE39}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/XNET-CAN-Signal-Logger.lvlib/Archived/XNET CAN Signal Logger.vi</Property>
@@ -350,7 +350,11 @@
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/XNET-CAN-Signal-Logger.lvlib/SubVIs/Action - XNET CAN Reader.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/XNET-CAN-Signal-Logger.lvlib/SubVIs/Action - DAQ AI Reader.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">NI XNET CAN Signal and DAQ Logger</Property>
 				<Property Name="TgtF_internalName" Type="Str">NI XNET CAN Signal and DAQ Logger</Property>

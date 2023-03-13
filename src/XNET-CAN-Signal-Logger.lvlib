@@ -33,6 +33,7 @@
 		<Item Name="Parse Log File Name.vi" Type="VI" URL="../SubVIs/Parse Log File Name.vi"/>
 		<Item Name="Query Ring String from Value.vi" Type="VI" URL="../SubVIs/Query Ring String from Value.vi"/>
 		<Item Name="Report Error.vi" Type="VI" URL="../SubVIs/Report Error.vi"/>
+		<Item Name="Update Queue Size by ID.vi" Type="VI" URL="../SubVIs/Update Queue Size by ID.vi"/>
 		<Item Name="Update Signal Data.vi" Type="VI" URL="../SubVIs/Update Signal Data.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
@@ -40,6 +41,7 @@
 		<Item Name="Def-DAQ AI Configuration.ctl" Type="VI" URL="../Typedef/Def-DAQ AI Configuration.ctl"/>
 		<Item Name="Def-Data Queue Ref.ctl" Type="VI" URL="../Typedef/Def-Data Queue Ref.ctl"/>
 		<Item Name="Def-Data Queue Type.ctl" Type="VI" URL="../Typedef/Def-Data Queue Type.ctl"/>
+		<Item Name="Def-Signal to Monitor.ctl" Type="VI" URL="../Typedef/Def-Signal to Monitor.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="CreateDatabase.vi" Type="VI" URL="../Utilities/CreateDatabase.vi"/>
