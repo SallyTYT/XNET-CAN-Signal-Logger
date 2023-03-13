@@ -12,7 +12,7 @@ Developed with LabVIEW 2021 (32bit)
 
 ## Develop the Logger
 
-1. LabVIEW 2021
+1. LabVIEW 2021 SP1
 2. NI-XNET Driver
 3. VIPM Dependencies
     * JKI State Machine
