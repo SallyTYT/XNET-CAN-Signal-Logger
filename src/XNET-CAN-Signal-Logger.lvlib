@@ -22,6 +22,7 @@
 		<Item Name="Configure DAQ AI.vi" Type="VI" URL="../SubVIs/Configure DAQ AI.vi"/>
 		<Item Name="Create TDMS Channels - DAQ AI.vi" Type="VI" URL="../SubVIs/Create TDMS Channels - DAQ AI.vi"/>
 		<Item Name="Create TDMS Channels - XNET CAN.vi" Type="VI" URL="../SubVIs/Create TDMS Channels - XNET CAN.vi"/>
+		<Item Name="FGV.vi" Type="VI" URL="../SubVIs/FGV.vi"/>
 		<Item Name="Get Monitor.Names All.vi" Type="VI" URL="../SubVIs/Get Monitor.Names All.vi"/>
 		<Item Name="Get Monitor.Names by ID.vi" Type="VI" URL="../SubVIs/Get Monitor.Names by ID.vi"/>
 		<Item Name="Get Monitor.Units All.vi" Type="VI" URL="../SubVIs/Get Monitor.Units All.vi"/>
@@ -29,6 +30,7 @@
 		<Item Name="Global Variables.vi" Type="VI" URL="../SubVIs/Global Variables.vi"/>
 		<Item Name="Launch Action - DAQ AI Readers.vi" Type="VI" URL="../SubVIs/Launch Action - DAQ AI Readers.vi"/>
 		<Item Name="Launch Action - TDMS Defragment.vi" Type="VI" URL="../SubVIs/Launch Action - TDMS Defragment.vi"/>
+		<Item Name="Launch Action - TDMS Writer Segmented.vi" Type="VI" URL="../SubVIs/Launch Action - TDMS Writer Segmented.vi"/>
 		<Item Name="Launch Action - TDMS Writer.vi" Type="VI" URL="../SubVIs/Launch Action - TDMS Writer.vi"/>
 		<Item Name="Launch Action - XNET CAN Readers.vi" Type="VI" URL="../SubVIs/Launch Action - XNET CAN Readers.vi"/>
 		<Item Name="Parse Log File Name.vi" Type="VI" URL="../SubVIs/Parse Log File Name.vi"/>
@@ -37,12 +39,14 @@
 		<Item Name="Update GlobalStop.ReaderState by ID.vi" Type="VI" URL="../SubVIs/Update GlobalStop.ReaderState by ID.vi"/>
 		<Item Name="Update GlobalStop.WriterState.vi" Type="VI" URL="../SubVIs/Update GlobalStop.WriterState.vi"/>
 		<Item Name="Update Monitor.Values by ID.vi" Type="VI" URL="../SubVIs/Update Monitor.Values by ID.vi"/>
+		<Item Name="Wait for WriterState.vi" Type="VI" URL="../SubVIs/Wait for WriterState.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="Def-CAN Port Configuration.ctl" Type="VI" URL="../Typedef/Def-CAN Port Configuration.ctl"/>
 		<Item Name="Def-DAQ AI Configuration.ctl" Type="VI" URL="../Typedef/Def-DAQ AI Configuration.ctl"/>
 		<Item Name="Def-Data Queue Ref.ctl" Type="VI" URL="../Typedef/Def-Data Queue Ref.ctl"/>
 		<Item Name="Def-Data Queue Type.ctl" Type="VI" URL="../Typedef/Def-Data Queue Type.ctl"/>
+		<Item Name="Def-FGV Data Type.ctl" Type="VI" URL="../Typedef/Def-FGV Data Type.ctl"/>
 		<Item Name="Def-GSTOP.ctl" Type="VI" URL="../Typedef/Def-GSTOP.ctl"/>
 		<Item Name="Def-Logging State.ctl" Type="VI" URL="../Typedef/Def-Logging State.ctl"/>
 		<Item Name="Def-Signal to Monitor.ctl" Type="VI" URL="../Typedef/Def-Signal to Monitor.ctl"/>
