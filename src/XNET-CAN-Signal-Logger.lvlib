@@ -25,20 +25,17 @@
 		<Item Name="Get Monitor.Names All.vi" Type="VI" URL="../SubVIs/Get Monitor.Names All.vi"/>
 		<Item Name="Get Monitor.Names by ID.vi" Type="VI" URL="../SubVIs/Get Monitor.Names by ID.vi"/>
 		<Item Name="Get Monitor.Units All.vi" Type="VI" URL="../SubVIs/Get Monitor.Units All.vi"/>
-		<Item Name="Get Monitor.Units by ID.vi" Type="VI" URL="../SubVIs/Get Monitor.Units by ID.vi"/>
 		<Item Name="Get Monitor.Values All.vi" Type="VI" URL="../SubVIs/Get Monitor.Values All.vi"/>
 		<Item Name="Global Variables.vi" Type="VI" URL="../SubVIs/Global Variables.vi"/>
 		<Item Name="Launch Action - DAQ AI Readers.vi" Type="VI" URL="../SubVIs/Launch Action - DAQ AI Readers.vi"/>
 		<Item Name="Launch Action - TDMS Defragment.vi" Type="VI" URL="../SubVIs/Launch Action - TDMS Defragment.vi"/>
 		<Item Name="Launch Action - TDMS Writer.vi" Type="VI" URL="../SubVIs/Launch Action - TDMS Writer.vi"/>
 		<Item Name="Launch Action - XNET CAN Readers.vi" Type="VI" URL="../SubVIs/Launch Action - XNET CAN Readers.vi"/>
-		<Item Name="Log GlobalStop.WriterState.vi" Type="VI" URL="../SubVIs/Log GlobalStop.WriterState.vi"/>
 		<Item Name="Parse Log File Name.vi" Type="VI" URL="../SubVIs/Parse Log File Name.vi"/>
 		<Item Name="Query Ring String from Value.vi" Type="VI" URL="../SubVIs/Query Ring String from Value.vi"/>
 		<Item Name="Report Error.vi" Type="VI" URL="../SubVIs/Report Error.vi"/>
 		<Item Name="Update GlobalStop.ReaderState by ID.vi" Type="VI" URL="../SubVIs/Update GlobalStop.ReaderState by ID.vi"/>
 		<Item Name="Update GlobalStop.WriterState.vi" Type="VI" URL="../SubVIs/Update GlobalStop.WriterState.vi"/>
-		<Item Name="Update Monitor.QueueSize by ID.vi" Type="VI" URL="../SubVIs/Update Monitor.QueueSize by ID.vi"/>
 		<Item Name="Update Monitor.Values by ID.vi" Type="VI" URL="../SubVIs/Update Monitor.Values by ID.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
