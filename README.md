@@ -4,6 +4,8 @@ Logging over 1000 channels * 100 Hz CAN data with bus load over 90% to TDMS file
 
 Developed with LabVIEW 2021 SP1 (32bit)
 
+![image](https://user-images.githubusercontent.com/64485819/224992365-212132a9-50f4-43cd-b075-6730601d55da.png)
+
 ## Use the Logger
 
 1. Download from the [release page](https://github.com/SallyTYT/XNET-CAN-Signal-Logger/releases)
