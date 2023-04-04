@@ -9,7 +9,7 @@ Developed with LabVIEW 2021 SP1 (32bit)
 ## Use the Logger
 
 1. Download from the [release page](https://github.com/SallyTYT/XNET-CAN-Signal-Logger/releases)
-2. Install LabVIEW Runtime Engine and NI-XNET driver (Refer to the release note for SW versions)
+2. Install LabVIEW Runtime Engine and hardware drivers (Refer to the release note for SW versions)
 3. Run the exe file
 
 ## Develop the Logger
