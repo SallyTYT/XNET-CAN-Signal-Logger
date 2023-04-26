@@ -14,6 +14,13 @@
 	<Item Name="Archived" Type="Folder">
 		<Item Name="XNET CAN Signal Logger.vi" Type="VI" URL="../Archived/XNET CAN Signal Logger.vi"/>
 	</Item>
+	<Item Name="ForFLPlugin" Type="Folder">
+		<Item Name="Action - XNET CAN Reader with ID.vi" Type="VI" URL="../ForFLPlugin/Action - XNET CAN Reader with ID.vi"/>
+		<Item Name="Configure Dialog.vi" Type="VI" URL="../ForFLPlugin/Configure Dialog.vi"/>
+		<Item Name="Create FL Channels - XNET CAN.vi" Type="VI" URL="../ForFLPlugin/Create FL Channels - XNET CAN.vi"/>
+		<Item Name="Launch Action - XNET CAN Readers with ID.vi" Type="VI" URL="../ForFLPlugin/Launch Action - XNET CAN Readers with ID.vi"/>
+		<Item Name="Obtain Data Queue Name.vi" Type="VI" URL="../SubVIs/Obtain Data Queue Name.vi"/>
+	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Action - DAQ AI Reader.vi" Type="VI" URL="../SubVIs/Action - DAQ AI Reader.vi"/>
 		<Item Name="Action - TDMS Defragment.vi" Type="VI" URL="../SubVIs/Action - TDMS Defragment.vi"/>
