@@ -11,10 +11,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="TEST" Type="Folder">
+			<Item Name="_Test Executor.vi" Type="VI" URL="../../ForFLPlugin/_Test Executor.vi"/>
+		</Item>
 		<Item Name="FlexLogger Plug-in Development Kit Manual.pdf" Type="Document" URL="/&lt;resource&gt;/FlexLogger/SDK/FlexLogger Plug-in Development Kit Manual.pdf"/>
 		<Item Name="Performanced XNET CAN Signal Logger.lvlib" Type="Library" URL="../Performanced XNET CAN Signal Logger.lvlib"/>
 		<Item Name="Performanced XNET CAN Signal Logger.xml" Type="Document" URL="../Performanced XNET CAN Signal Logger.xml"/>
-		<Item Name="XNET-CAN-Signal-Logger.lvlib" Type="Library" URL="../../XNET-CAN-Signal-Logger.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="PluginSDK.lvlibp" Type="LVLibp" URL="/&lt;vilib&gt;/FlexLogger/SDK/PluginSDK.lvlibp">
@@ -328,8 +330,6 @@
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
-				<Item Name="XNET Database Get List.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Database Get List.vi"/>
-				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="GSTOP.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/GlobalStop/GSTOP.lvlib"/>
@@ -545,6 +545,7 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="XNET-CAN-Signal-Logger.lvlib" Type="Library" URL="../../XNET-CAN-Signal-Logger.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Performanced XNET CAN Signal Logger Packed Library" Type="Packed Library">
@@ -559,7 +560,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/National Instruments/FlexLogger/Plugins/IOPlugins/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{838050FF-6FEE-4722-B74E-B95046DE4200}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Performanced XNET CAN Signal Logger.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/National Instruments/FlexLogger/Plugins/IOPlugins/NI_AB_PROJECTNAME/Performanced XNET CAN Signal Logger.lvlibp</Property>
@@ -573,7 +574,7 @@
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/Performanced XNET CAN Signal Logger Packed Library/User/Performanced XNET CAN Signal Logger</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4F9F6FD6-7680-436A-8360-4CD18974E764}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{38A4F19D-EDF1-40EF-9CE3-2CF36B52E9D3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Performanced XNET CAN Signal Logger.lvlib</Property>
@@ -592,14 +593,26 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Performanced XNET CAN Signal Logger.xml</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/XNET-CAN-Signal-Logger.lvlib</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Dependencies/XNET-CAN-Signal-Logger.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/XNET-CAN-Signal-Logger.lvlib/ForFLPlugin/Action - XNET CAN Reader with ID.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Dependencies/XNET-CAN-Signal-Logger.lvlib/ForFLPlugin/NI XNET CAN Signal Logger - Executor.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Dependencies/XNET-CAN-Signal-Logger.lvlib/SubVIs/Action - TDMS Defragment.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Dependencies/XNET-CAN-Signal-Logger.lvlib/SubVIs/Action - TDMS Writer.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Dependencies/XNET-CAN-Signal-Logger.lvlib/SubVIs/Action - XNET CAN Reader.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Performanced XNET CAN Signal Logger Packed Library</Property>
 				<Property Name="TgtF_internalName" Type="Str">Performanced XNET CAN Signal Logger Packed Library</Property>
@@ -607,6 +620,46 @@
 				<Property Name="TgtF_productName" Type="Str">Performanced XNET CAN Signal Logger Packed Library</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{78AFA852-F385-49F0-9A77-0CF8EE3CF7FE}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Performanced XNET CAN Signal Logger.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="XNET-CAN-Signal-Logger" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{A1513B68-5982-49E8-A096-1401527910B1}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">XNET-CAN-Signal-Logger</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{17B53699-B2EE-43D5-ACF5-3846FC622E6F}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">XNET-CAN-Signal-Logger.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/XNET-CAN-Signal-Logger.lvlibp</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{38A4F19D-EDF1-40EF-9CE3-2CF36B52E9D3}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dependencies/XNET-CAN-Signal-Logger.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">NI</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">XNET-CAN-Signal-Logger</Property>
+				<Property Name="TgtF_internalName" Type="Str">XNET-CAN-Signal-Logger</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 NI</Property>
+				<Property Name="TgtF_productName" Type="Str">XNET-CAN-Signal-Logger</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{6AE852D0-FC00-4188-ABBC-2DFD5217FAE4}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">XNET-CAN-Signal-Logger.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
