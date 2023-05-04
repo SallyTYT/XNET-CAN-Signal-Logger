@@ -12,6 +12,10 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="ForFLPlugin" Type="Folder">
+		<Item Name="labview_win_util32" Type="Folder">
+			<Item Name="Cancel Calling VI Wnd Topmost.vi" Type="VI" URL="../ForFLPlugin/labview_win_util32/Cancel Calling VI Wnd Topmost.vi"/>
+			<Item Name="Set Calling VI Wnd Top &amp; Active.vi" Type="VI" URL="../ForFLPlugin/labview_win_util32/Set Calling VI Wnd Top &amp; Active.vi"/>
+		</Item>
 		<Item Name="Launch Action - NI XNET CAN Signal Logger - Executor.vi" Type="VI" URL="../ForFLPlugin/Launch Action - NI XNET CAN Signal Logger - Executor.vi"/>
 		<Item Name="NI XNET CAN Signal Logger - Configure Dialog.vi" Type="VI" URL="../ForFLPlugin/NI XNET CAN Signal Logger - Configure Dialog.vi"/>
 		<Item Name="NI XNET CAN Signal Logger - Executor.vi" Type="VI" URL="../ForFLPlugin/NI XNET CAN Signal Logger - Executor.vi"/>
