@@ -14,7 +14,6 @@
 	<Item Name="ForFLPlugin" Type="Folder">
 		<Item Name="Launch Action - NI XNET CAN Signal Logger - Executor.vi" Type="VI" URL="../ForFLPlugin/Launch Action - NI XNET CAN Signal Logger - Executor.vi"/>
 		<Item Name="NI XNET CAN Signal Logger - Configure Dialog.vi" Type="VI" URL="../ForFLPlugin/NI XNET CAN Signal Logger - Configure Dialog.vi"/>
-		<Item Name="NI XNET CAN Signal Logger - Configure Monitor Dialog.vi" Type="VI" URL="../ForFLPlugin/NI XNET CAN Signal Logger - Configure Monitor Dialog.vi"/>
 		<Item Name="NI XNET CAN Signal Logger - Executor.vi" Type="VI" URL="../ForFLPlugin/NI XNET CAN Signal Logger - Executor.vi"/>
 		<Item Name="Query Signal Lists.vi" Type="VI" URL="../ForFLPlugin/Query Signal Lists.vi"/>
 	</Item>
