@@ -11,8 +11,15 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Archived" Type="Folder">
-		<Item Name="XNET CAN Signal Logger.vi" Type="VI" URL="../Archived/XNET CAN Signal Logger.vi"/>
+	<Item Name="ForFLPlugin" Type="Folder">
+		<Item Name="labview_win_util32" Type="Folder">
+			<Item Name="Cancel Calling VI Wnd Topmost.vi" Type="VI" URL="../ForFLPlugin/labview_win_util32/Cancel Calling VI Wnd Topmost.vi"/>
+			<Item Name="Set Calling VI Wnd Top &amp; Active.vi" Type="VI" URL="../ForFLPlugin/labview_win_util32/Set Calling VI Wnd Top &amp; Active.vi"/>
+		</Item>
+		<Item Name="Launch Action - NI XNET CAN Signal Logger - Executor.vi" Type="VI" URL="../ForFLPlugin/Launch Action - NI XNET CAN Signal Logger - Executor.vi"/>
+		<Item Name="NI XNET CAN Signal Logger - Configure Dialog.vi" Type="VI" URL="../ForFLPlugin/NI XNET CAN Signal Logger - Configure Dialog.vi"/>
+		<Item Name="NI XNET CAN Signal Logger - Executor.vi" Type="VI" URL="../ForFLPlugin/NI XNET CAN Signal Logger - Executor.vi"/>
+		<Item Name="Query Signal Lists.vi" Type="VI" URL="../ForFLPlugin/Query Signal Lists.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Action - DAQ AI Reader.vi" Type="VI" URL="../SubVIs/Action - DAQ AI Reader.vi"/>
@@ -39,6 +46,7 @@
 		<Item Name="Update GlobalStop.ReaderState by ID.vi" Type="VI" URL="../SubVIs/Update GlobalStop.ReaderState by ID.vi"/>
 		<Item Name="Update GlobalStop.WriterState.vi" Type="VI" URL="../SubVIs/Update GlobalStop.WriterState.vi"/>
 		<Item Name="Update Monitor.Values by ID.vi" Type="VI" URL="../SubVIs/Update Monitor.Values by ID.vi"/>
+		<Item Name="Wait for ReaderState.vi" Type="VI" URL="../SubVIs/Wait for ReaderState.vi"/>
 		<Item Name="Wait for WriterState.vi" Type="VI" URL="../SubVIs/Wait for WriterState.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
@@ -46,9 +54,11 @@
 		<Item Name="Def-DAQ AI Configuration.ctl" Type="VI" URL="../Typedef/Def-DAQ AI Configuration.ctl"/>
 		<Item Name="Def-Data Queue Ref.ctl" Type="VI" URL="../Typedef/Def-Data Queue Ref.ctl"/>
 		<Item Name="Def-Data Queue Type.ctl" Type="VI" URL="../Typedef/Def-Data Queue Type.ctl"/>
+		<Item Name="Def-Executor Command.ctl" Type="VI" URL="../Typedef/Def-Executor Command.ctl"/>
 		<Item Name="Def-FGV Data Type.ctl" Type="VI" URL="../Typedef/Def-FGV Data Type.ctl"/>
 		<Item Name="Def-GSTOP.ctl" Type="VI" URL="../Typedef/Def-GSTOP.ctl"/>
 		<Item Name="Def-Logging State.ctl" Type="VI" URL="../Typedef/Def-Logging State.ctl"/>
+		<Item Name="Def-LogSpec.ctl" Type="VI" URL="../Typedef/Def-LogSpec.ctl"/>
 		<Item Name="Def-Signal to Monitor.ctl" Type="VI" URL="../Typedef/Def-Signal to Monitor.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
