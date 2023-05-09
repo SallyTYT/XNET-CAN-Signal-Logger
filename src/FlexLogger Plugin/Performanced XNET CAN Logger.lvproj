@@ -13,6 +13,7 @@
 		<Item Name="TEST" Type="Folder">
 			<Item Name="_DEBUG.vi" Type="VI" URL="../_DEBUG.vi"/>
 			<Item Name="_Test Executor.vi" Type="VI" URL="../../ForFLPlugin/_Test Executor.vi"/>
+			<Item Name="_Test Initialize Executor.vi" Type="VI" URL="../../ForFLPlugin/_Test Initialize Executor.vi"/>
 		</Item>
 		<Item Name="FlexLogger Plug-in Development Kit Manual.pdf" Type="Document" URL="/&lt;resource&gt;/FlexLogger/SDK/FlexLogger Plug-in Development Kit Manual.pdf"/>
 		<Item Name="Performanced XNET CAN Logger.lvlib" Type="Library" URL="../Performanced XNET CAN Logger.lvlib"/>
@@ -566,7 +567,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/National Instruments/FlexLogger/Plugins/IOPlugins/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{838050FF-6FEE-4722-B74E-B95046DE4200}</Property>
-				<Property Name="Bld_version.build" Type="Int">58</Property>
+				<Property Name="Bld_version.build" Type="Int">64</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Performanced XNET CAN Logger.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/National Instruments/FlexLogger/Plugins/IOPlugins/NI_AB_PROJECTNAME/Performanced XNET CAN Logger.lvlibp</Property>
