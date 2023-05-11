@@ -31,6 +31,7 @@
 		<Item Name="Configure DAQ AI.vi" Type="VI" URL="../SubVIs/Configure DAQ AI.vi"/>
 		<Item Name="Create TDMS Channels - DAQ AI.vi" Type="VI" URL="../SubVIs/Create TDMS Channels - DAQ AI.vi"/>
 		<Item Name="Create TDMS Channels - XNET CAN.vi" Type="VI" URL="../SubVIs/Create TDMS Channels - XNET CAN.vi"/>
+		<Item Name="Create TDMS File.vi" Type="VI" URL="../SubVIs/Create TDMS File.vi"/>
 		<Item Name="FGV.vi" Type="VI" URL="../SubVIs/FGV.vi"/>
 		<Item Name="Get Monitor.Names All.vi" Type="VI" URL="../SubVIs/Get Monitor.Names All.vi"/>
 		<Item Name="Get Monitor.Names by ID.vi" Type="VI" URL="../SubVIs/Get Monitor.Names by ID.vi"/>
