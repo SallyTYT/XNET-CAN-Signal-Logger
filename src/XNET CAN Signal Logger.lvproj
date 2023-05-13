@@ -14,7 +14,6 @@
 			<Item Name="GSTOP.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/GlobalStop/GSTOP.lvlib"/>
 			<Item Name="TimerEngine.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/NEVSTOP_TimerEngine/TimerEngine.lvlib"/>
 		</Item>
-		<Item Name="DIAdem Script - Sync Channels.VBS" Type="Document" URL="../DIAdem Script - Sync Channels.VBS"/>
 		<Item Name="XNET-CAN-Signal-Logger.lvlib" Type="Library" URL="../XNET-CAN-Signal-Logger.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -549,7 +548,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D4DB3F67-A95E-4D5D-B25D-C0F851CE4B6E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0AAEDB51-4C2F-4EDC-BAF1-5BA5445D63EC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/XNET-CAN-Signal-Logger.lvlib/NI XNET CAN Signal and DAQ Logger.vi</Property>
@@ -572,8 +571,7 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/DIAdem Script - Sync Channels.VBS</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">NI XNET CAN Signal and DAQ Logger</Property>

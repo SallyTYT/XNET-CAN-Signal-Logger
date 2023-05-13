@@ -15,7 +15,7 @@
 			<Item Name="_Test Executor.vi" Type="VI" URL="../../ForFLPlugin/_Test Executor.vi"/>
 			<Item Name="_Test Initialize Executor.vi" Type="VI" URL="../../ForFLPlugin/_Test Initialize Executor.vi"/>
 		</Item>
-		<Item Name="DIAdem Script - Sync Channels.VBS" Type="Document" URL="../../DIAdem Script - Sync Channels.VBS"/>
+		<Item Name="DIAdem Script - Sync Channels.VBS" Type="Document" URL="../DIAdem Script - Sync Channels.VBS"/>
 		<Item Name="FlexLogger Plug-in Development Kit Manual.pdf" Type="Document" URL="/&lt;resource&gt;/FlexLogger/SDK/FlexLogger Plug-in Development Kit Manual.pdf"/>
 		<Item Name="Performanced XNET CAN Logger.lvlib" Type="Library" URL="../Performanced XNET CAN Logger.lvlib"/>
 		<Item Name="Performanced XNET CAN Logger.xml" Type="Document" URL="../Performanced XNET CAN Logger.xml"/>
@@ -582,7 +582,7 @@
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/Performanced XNET CAN Logger Packed Library/User/Performanced XNET CAN Signal Logger</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BC185650-F2A4-4F8D-98D7-167D9EFD205A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C89EED7E-6B3E-4B25-A28F-2DE47DE0DF1F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Performanced XNET CAN Logger.lvlib</Property>
