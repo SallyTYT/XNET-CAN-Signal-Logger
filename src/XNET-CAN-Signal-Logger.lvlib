@@ -16,6 +16,8 @@
 			<Item Name="Cancel Calling VI Wnd Topmost.vi" Type="VI" URL="../ForFLPlugin/labview_win_util32/Cancel Calling VI Wnd Topmost.vi"/>
 			<Item Name="Set Calling VI Wnd Top &amp; Active.vi" Type="VI" URL="../ForFLPlugin/labview_win_util32/Set Calling VI Wnd Top &amp; Active.vi"/>
 		</Item>
+		<Item Name="Def-ExecutorConfigurations.ctl" Type="VI" URL="../ForFLPlugin/Def-ExecutorConfigurations.ctl"/>
+		<Item Name="Def-LogSpec.ctl" Type="VI" URL="../Typedef/Def-LogSpec.ctl"/>
 		<Item Name="Launch Action - NI XNET CAN Signal Logger - Executor.vi" Type="VI" URL="../ForFLPlugin/Launch Action - NI XNET CAN Signal Logger - Executor.vi"/>
 		<Item Name="NI XNET CAN Signal Logger - Configure Dialog.vi" Type="VI" URL="../ForFLPlugin/NI XNET CAN Signal Logger - Configure Dialog.vi"/>
 		<Item Name="NI XNET CAN Signal Logger - Executor.vi" Type="VI" URL="../ForFLPlugin/NI XNET CAN Signal Logger - Executor.vi"/>
@@ -29,6 +31,7 @@
 		<Item Name="Configure DAQ AI.vi" Type="VI" URL="../SubVIs/Configure DAQ AI.vi"/>
 		<Item Name="Create TDMS Channels - DAQ AI.vi" Type="VI" URL="../SubVIs/Create TDMS Channels - DAQ AI.vi"/>
 		<Item Name="Create TDMS Channels - XNET CAN.vi" Type="VI" URL="../SubVIs/Create TDMS Channels - XNET CAN.vi"/>
+		<Item Name="Create TDMS File.vi" Type="VI" URL="../SubVIs/Create TDMS File.vi"/>
 		<Item Name="FGV.vi" Type="VI" URL="../SubVIs/FGV.vi"/>
 		<Item Name="Get Monitor.Names All.vi" Type="VI" URL="../SubVIs/Get Monitor.Names All.vi"/>
 		<Item Name="Get Monitor.Names by ID.vi" Type="VI" URL="../SubVIs/Get Monitor.Names by ID.vi"/>
@@ -58,7 +61,6 @@
 		<Item Name="Def-FGV Data Type.ctl" Type="VI" URL="../Typedef/Def-FGV Data Type.ctl"/>
 		<Item Name="Def-GSTOP.ctl" Type="VI" URL="../Typedef/Def-GSTOP.ctl"/>
 		<Item Name="Def-Logging State.ctl" Type="VI" URL="../Typedef/Def-Logging State.ctl"/>
-		<Item Name="Def-LogSpec.ctl" Type="VI" URL="../Typedef/Def-LogSpec.ctl"/>
 		<Item Name="Def-Signal to Monitor.ctl" Type="VI" URL="../Typedef/Def-Signal to Monitor.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
